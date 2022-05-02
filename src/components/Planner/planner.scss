@@ -1,0 +1,88 @@
+.planner__container {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(209, 230, 180);
+}
+
+.planner__input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.planner__form {
+  display: flex;
+  gap: 10px;
+}
+
+.planner__input {
+  border-radius: 10px;
+  background-color: rgb(225, 234, 213);
+}
+
+.planner__select {
+  border-radius: 10px;
+}
+
+.planner__button {
+  padding: 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+  background-color: rgb(188, 206, 163);
+}
+
+.planner__button-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planner__task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.planner__progress-bar-container {
+  margin-top: 20px;
+  height: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.planner__progress-bar__unit {
+  height: 10px;
+  flex-grow: 1;
+}
+
+.unit {
+  background-color: green;
+
+}
+
+.planner__unordered-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.low {
+  background-color: green;
+  order: 3;
+}
+
+.medium {
+  background-color: yellow;
+  order: 2;
+}
+
+.high {
+  background-color: red;
+  order: 1;
+}
